@@ -1,0 +1,60 @@
+{
+  "dataset_status": {
+    "bank": "NOT_RUN"
+  },
+  "bank_sha256": null,
+  "bank_download_url": "https://archive.ics.uci.edu/static/public/222/bank+marketing.zip",
+  "failed_datasets": [],
+  "gate_model": "per-RY 1q depolarizing + per-CX 2q depolarizing + symmetric readout flip",
+  "datasets_executed": [
+    "breast",
+    "digits38",
+    "wine01"
+  ],
+  "seeds": [
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69
+  ],
+  "noise_configs": {
+    "ideal": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "readout_2pct": [
+      0.0,
+      0.0,
+      0.02
+    ],
+    "gate_depolarizing": [
+      0.001,
+      0.01,
+      0.0
+    ],
+    "combined_mild": [
+      0.001,
+      0.01,
+      0.02
+    ],
+    "combined_strong": [
+      0.003,
+      0.03,
+      0.05
+    ]
+  },
+  "static_calibration_noise_assumption": true,
+  "target": "stationary noisy-readout mean; independent stochastic shots",
+  "no_hardware_claim": true,
+  "train_cost_not_counted": true,
+  "wall_seconds": 118.46535038948059,
+  "n_method_rows": 900,
+  "n_dataset_seed_noise_runs": 150
+}

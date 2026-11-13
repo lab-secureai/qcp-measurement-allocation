@@ -1,0 +1,113 @@
+{
+  "selection": "feasible",
+  "chosen": "width_cal0.18_test0.12",
+  "budget_selected_power": 0.0,
+  "paired": {
+    "width_selected": {
+      "ratio_shots_mean": 1.8738576977899324,
+      "mean_paired_shot_saving_pct": -87.38576977899322,
+      "mean_paired_set_delta": 0.0017094017094017107,
+      "mean_coverage_delta": 0.0,
+      "mean_set_nonlarger_fraction": 0.9,
+      "mean_set_within_tolerance_fraction": 0.9,
+      "certification_scope": "ideal-score containment with beta failure budget",
+      "cluster_bootstrap95_shot_saving_pct": [
+        -118.1616496435093,
+        -69.97135932458664
+      ],
+      "cluster_bootstrap95_set_delta": [
+        0.0,
+        0.00481934731934733
+      ]
+    },
+    "width_budget_matched": {
+      "ratio_shots_mean": 1.000478780272537,
+      "mean_paired_shot_saving_pct": -0.04787802725370568,
+      "mean_paired_set_delta": 0.028515928515928508,
+      "mean_coverage_delta": 0.002779072779072785,
+      "mean_set_nonlarger_fraction": 0.5666666666666667,
+      "mean_set_within_tolerance_fraction": 0.5666666666666667,
+      "certification_scope": "ideal-score containment with beta failure budget",
+      "cluster_bootstrap95_shot_saving_pct": [
+        -1.999436301378991,
+        2.3541067551701502
+      ],
+      "cluster_bootstrap95_set_delta": [
+        0.015227272727272739,
+        0.04279629629629625
+      ]
+    },
+    "width_budget_tuned": {
+      "ratio_shots_mean": 1.000478780272537,
+      "mean_paired_shot_saving_pct": -0.04787802725370568,
+      "mean_paired_set_delta": 0.028515928515928508,
+      "mean_coverage_delta": 0.002779072779072785,
+      "mean_set_nonlarger_fraction": 0.5666666666666667,
+      "mean_set_within_tolerance_fraction": 0.5666666666666667,
+      "certification_scope": "ideal-score containment with beta failure budget",
+      "cluster_bootstrap95_shot_saving_pct": [
+        -1.999436301378991,
+        2.3541067551701502
+      ],
+      "cluster_bootstrap95_set_delta": [
+        0.015227272727272739,
+        0.04279629629629625
+      ]
+    },
+    "width_test_only": {
+      "ratio_shots_mean": 1.6607285331125685,
+      "mean_paired_shot_saving_pct": -66.07285331125688,
+      "mean_paired_set_delta": 0.0006993006993007016,
+      "mean_coverage_delta": 0.0,
+      "mean_set_nonlarger_fraction": 0.9333333333333333,
+      "mean_set_within_tolerance_fraction": 0.9333333333333333,
+      "certification_scope": "ideal-score containment with beta failure budget",
+      "cluster_bootstrap95_shot_saving_pct": [
+        -86.47215995840097,
+        -54.51919697849617
+      ],
+      "cluster_bootstrap95_set_delta": [
+        0.0,
+        0.002564102564102577
+      ]
+    },
+    "V2_endpoint": {
+      "ratio_shots_mean": 1.0468907749397256,
+      "mean_paired_shot_saving_pct": -4.689077493972541,
+      "mean_paired_set_delta": -0.006998186998187003,
+      "mean_coverage_delta": -0.00037037037037037274,
+      "mean_set_nonlarger_fraction": 1.0,
+      "mean_set_within_tolerance_fraction": 0.7,
+      "certification_scope": "ideal-score containment with beta failure budget",
+      "cluster_bootstrap95_shot_saving_pct": [
+        -6.074965058945662,
+        -3.5486355484338716
+      ],
+      "cluster_bootstrap95_set_delta": [
+        -0.01717171717171717,
+        -0.0012069412069412031
+      ]
+    },
+    "standard_QCP64": {
+      "ratio_shots_mean": 0.14841696292137266,
+      "mean_paired_shot_saving_pct": 85.15830370786271,
+      "mean_paired_set_delta": -0.18168091168091166,
+      "mean_coverage_delta": -0.05623931623931623,
+      "mean_set_nonlarger_fraction": 1.0,
+      "mean_set_within_tolerance_fraction": 0.03333333333333333,
+      "certification_scope": "finite-shot marginal coverage, not ideal-oracle containment",
+      "cluster_bootstrap95_shot_saving_pct": [
+        83.01726741466204,
+        86.41149107611467
+      ],
+      "cluster_bootstrap95_set_delta": [
+        -0.2313173400673401,
+        -0.14265151515151517
+      ]
+    }
+  },
+  "runtime_seconds": 27.573020935058594,
+  "n_heldout_runs": 30,
+  "n_model_evaluations": 210,
+  "sample_n": 2660
+}

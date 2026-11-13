@@ -1,0 +1,114 @@
+{
+  "selection": "feasible",
+  "chosen": "width_cal0.18_test0.12",
+  "budget_selected_power": 0.0,
+  "paired": {
+    "width_selected": {
+      "ratio_shots_mean": 1.7848932230375645,
+      "mean_paired_shot_saving_pct": -78.48932230375642,
+      "mean_paired_set_delta": 0.003030303030303035,
+      "mean_coverage_delta": 0.0,
+      "mean_set_nonlarger_fraction": 0.9666666666666667,
+      "mean_set_within_tolerance_fraction": 0.9666666666666667,
+      "certification_scope": "ideal-score containment with beta failure budget",
+      "cluster_bootstrap95_shot_saving_pct": [
+        -89.48805706458282,
+        -69.62783278727782
+      ],
+      "cluster_bootstrap95_set_delta": [
+        0.0,
+        0.01212121212121214
+      ]
+    },
+    "width_budget_matched": {
+      "ratio_shots_mean": 1.0267850065451427,
+      "mean_paired_shot_saving_pct": -2.678500654514282,
+      "mean_paired_set_delta": 0.029357679357679373,
+      "mean_coverage_delta": 0.0037114737114737153,
+      "mean_set_nonlarger_fraction": 0.5,
+      "mean_set_within_tolerance_fraction": 0.5,
+      "certification_scope": "ideal-score containment with beta failure budget",
+      "cluster_bootstrap95_shot_saving_pct": [
+        -5.61424501028543,
+        -0.1434447401637915
+      ],
+      "cluster_bootstrap95_set_delta": [
+        0.0059259259259259196,
+        0.051520979020979
+      ]
+    },
+    "width_budget_tuned": {
+      "ratio_shots_mean": 1.0267850065451427,
+      "mean_paired_shot_saving_pct": -2.678500654514282,
+      "mean_paired_set_delta": 0.029357679357679373,
+      "mean_coverage_delta": 0.0037114737114737153,
+      "mean_set_nonlarger_fraction": 0.5,
+      "mean_set_within_tolerance_fraction": 0.5,
+      "certification_scope": "ideal-score containment with beta failure budget",
+      "cluster_bootstrap95_shot_saving_pct": [
+        -5.61424501028543,
+        -0.1434447401637915
+      ],
+      "cluster_bootstrap95_set_delta": [
+        0.0059259259259259196,
+        0.051520979020979
+      ]
+    },
+    "width_test_only": {
+      "ratio_shots_mean": 1.604260093116611,
+      "mean_paired_shot_saving_pct": -60.42600931166112,
+      "mean_paired_set_delta": 0.0,
+      "mean_coverage_delta": 0.0,
+      "mean_set_nonlarger_fraction": 1.0,
+      "mean_set_within_tolerance_fraction": 1.0,
+      "certification_scope": "ideal-score containment with beta failure budget",
+      "cluster_bootstrap95_shot_saving_pct": [
+        -65.58239590820813,
+        -54.40038972568591
+      ],
+      "cluster_bootstrap95_set_delta": [
+        0.0,
+        0.0
+      ]
+    },
+    "V2_endpoint": {
+      "ratio_shots_mean": 1.0496065731856852,
+      "mean_paired_shot_saving_pct": -4.960657318568547,
+      "mean_paired_set_delta": -0.006024346024346028,
+      "mean_coverage_delta": 0.0,
+      "mean_set_nonlarger_fraction": 1.0,
+      "mean_set_within_tolerance_fraction": 0.7666666666666667,
+      "certification_scope": "ideal-score containment with beta failure budget",
+      "cluster_bootstrap95_shot_saving_pct": [
+        -8.174322959051013,
+        -3.010065577206137
+      ],
+      "cluster_bootstrap95_set_delta": [
+        -0.016161616161616175,
+        -0.0004662004662004578
+      ]
+    },
+    "standard_QCP64": {
+      "ratio_shots_mean": 0.14539656060201195,
+      "mean_paired_shot_saving_pct": 85.46034393979879,
+      "mean_paired_set_delta": -0.1892022792022791,
+      "mean_coverage_delta": -0.06332038332038331,
+      "mean_set_nonlarger_fraction": 1.0,
+      "mean_set_within_tolerance_fraction": 0.0,
+      "certification_scope": "finite-shot marginal coverage, not ideal-oracle containment",
+      "cluster_bootstrap95_shot_saving_pct": [
+        84.78357903988554,
+        86.35055795451721
+      ],
+      "cluster_bootstrap95_set_delta": [
+        -0.2535353535353535,
+        -0.1437087542087542
+      ]
+    }
+  },
+  "split_policy": "random_holdout",
+  "runtime_seconds": 27.405149936676025,
+  "n_heldout_runs": 30,
+  "n_model_evaluations": 210,
+  "sample_n": 2660
+}

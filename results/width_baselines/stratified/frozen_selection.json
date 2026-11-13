@@ -1,0 +1,14 @@
+{
+  "chosen": "width_cal0.18_test0.12",
+  "cal_width_threshold": 0.18,
+  "test_width_threshold": 0.12,
+  "budget_selected_priority": "width_priority_0.0",
+  "budget_selected_power": 0.0,
+  "status": "feasible",
+  "selection_on": "development seeds 0..4 only",
+  "set_tolerance": 0.005,
+  "all_certified_same_alpha": 0.1,
+  "all_certified_same_beta": 0.01,
+  "heldout_seed_start": 40,
+  "heldout_seed_count": 10
+}

@@ -1,0 +1,107 @@
+{
+  "protocol": "random_holdout",
+  "seeds": [
+    50,
+    59
+  ],
+  "alpha": 0.1,
+  "beta": 0.01,
+  "frozen_thresholds": {
+    "calibration_width": 0.18,
+    "test_width": 0.12
+  },
+  "n_runs": 30,
+  "contrasts": [
+    {
+      "a": "R+D",
+      "b": "W+D",
+      "saving_pct": 14.633387153718283,
+      "mean_shot_delta": -14713.6,
+      "mean_set_delta": -0.002020202020202026,
+      "mean_coverage_delta": 0.0,
+      "bootstrap_95_pct": [
+        9.28619482388167,
+        19.718628220537948
+      ]
+    },
+    {
+      "a": "R+W",
+      "b": "W+W",
+      "saving_pct": 9.888736246703266,
+      "mean_shot_delta": -14711.466666666667,
+      "mean_set_delta": -0.003030303030303035,
+      "mean_coverage_delta": 0.0
+    },
+    {
+      "a": "R+D",
+      "b": "R+W",
+      "saving_pct": 37.36138098612853,
+      "mean_shot_delta": -48041.6,
+      "mean_set_delta": 0.0,
+      "mean_coverage_delta": 0.0
+    },
+    {
+      "a": "W+D",
+      "b": "W+W",
+      "saving_pct": 33.7441653974589,
+      "mean_shot_delta": -48039.46666666667,
+      "mean_set_delta": -0.0010101010101010092,
+      "mean_coverage_delta": 0.0
+    },
+    {
+      "a": "R+D",
+      "b": "W+W",
+      "saving_pct": 43.63716421875721,
+      "mean_shot_delta": -62753.066666666666,
+      "mean_set_delta": -0.003030303030303035,
+      "mean_coverage_delta": 0.0,
+      "bootstrap_95_pct": [
+        40.55372806621693,
+        47.07953721884241
+      ]
+    },
+    {
+      "a": "R+D",
+      "b": "Wbudget+D",
+      "saving_pct": 2.417238420828364,
+      "mean_shot_delta": -1606.9333333333334,
+      "mean_set_delta": -0.029357679357679373,
+      "mean_coverage_delta": -0.0037114737114737153,
+      "bootstrap_95_pct": [
+        0.018626826745756952,
+        4.837160620365078
+      ]
+    }
+  ],
+  "reproduction_checks": {
+    "R+D": {
+      "total_shots": 0.0,
+      "cal_shots": 0.0,
+      "test_shots": 0.0,
+      "mean_set_size": 2.220446049250313e-16,
+      "coverage": 1.1102230246251565e-16
+    },
+    "W+W": {
+      "total_shots": 0.0,
+      "cal_shots": 0.0,
+      "test_shots": 0.0,
+      "mean_set_size": 2.220446049250313e-16,
+      "coverage": 1.1102230246251565e-16
+    },
+    "R+W": {
+      "total_shots": 0.0,
+      "cal_shots": 0.0,
+      "test_shots": 0.0,
+      "mean_set_size": 2.220446049250313e-16,
+      "coverage": 1.1102230246251565e-16
+    },
+    "Wbudget+D": {
+      "total_shots": 0.0,
+      "cal_shots": 0.0,
+      "test_shots": 0.0,
+      "mean_set_size": 2.220446049250313e-16,
+      "coverage": 1.1102230246251565e-16
+    }
+  },
+  "wall_seconds": 16.302004098892212
+}
